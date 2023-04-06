@@ -1,0 +1,156 @@
+/* 1 */
+:root {
+  background-color: #fff;
+}
+/* 2 */
+* {
+  color: black;
+}
+/* 3 */
+.card-body h1 {
+  background-color: blue;
+}
+/* 4 */
+.green {
+  color: green;
+}
+/* 5 */
+#blue {
+  color: blue;
+}
+/* 6 */
+.box div {
+  background-color: green;
+}
+.box p {
+  color: red;
+}
+/* 7 */
+div section.green {
+  color: white;
+  background-color: green;
+}
+/* 8 */
+ul > li {
+  background-color: red;
+}
+/* 9  */
+.header-button + span {
+  background-color: red;
+}
+/* 10 */
+.susid ~ p {
+  background-color: blue;
+  color: #fff;
+}
+/* 11 */
+.salo,
+#bread {
+  background-color: yellow;
+}
+/* ////////////////////////////////////////////////////////////// */
+/* 1 */
+.first-task li:first-child {
+  color: #fff;
+}
+/* 2 */
+.second-task li:first-child {
+  color: yellow;
+}
+/* 3 */
+.third-task ul:nth-child(2) li:first-child {
+  background-color: yellow;
+}
+/* 4 */
+.four-task li:last-child {
+  background-color: yellow;
+}
+/* 5 */
+.five-task ul:nth-child(2) li:last-child {
+  color: #fff;
+}
+/* 6 */
+.only-child-task div:only-child {
+  color: red;
+}
+/* 7 */
+.seven-task p:first-of-type {
+  background-color: red;
+}
+/* 8 */
+.eight-task p:last-of-type {
+  background-color: red;
+}
+/* 9 */
+.nine-task p:only-of-type {
+  background-color: yellow;
+}
+/* ////////////////////////////////////////////////////////////// */
+/* 1 */
+a[href] {
+  color: #fff;
+}
+/* 2 */
+li[value] {
+  color: yellow;
+}
+/* 3 */
+li[value='3'] {
+  background-color: red;
+}
+/* 4 */
+button[class~='primary'] {
+  color: blue;
+}
+/* 5 */
+button[class|='secondary'] {
+  background-color: red;
+}
+/* 6 */
+.lesson-three-task-six li {
+  background-color: #fff;
+}
+.lesson-three-task-six li[class^='b'] {
+  color: green;
+}
+/* 7 */
+.lesson-three-task-seven li {
+  background-color: #fff;
+}
+.lesson-three-task-seven li[class*='on'] {
+  color: green;
+}
+/* 8 */
+.lesson-three-task-eight li {
+  background-color: rgb(255, 255, 255);
+}
+.lesson-three-task-eight span[class$='s'] {
+  background-color: red;
+}
+/* 9 */
+.lesson-three-task-nine h2::first-letter,
+h3::first-letter {
+  color: red;
+}
+/* 10 */
+.lesson-three-task-ten::first-line {
+  background-color: yellow;
+}
+/* 11 */
+.lesson-three-task-eleven input::placeholder {
+  background-color: red;
+}
+/* 12 */
+.lesson-three-task-twelve li {
+  background-color: #fff;
+}
+.lesson-three-task-twelve li::before {
+  content: '➤ ';
+}
+/* 13 */
+.lesson-three-task-thirteen li {
+  background-color: #fff;
+}
+.lesson-three-task-thirteen li::after {
+  content: ' ➤';
+}
